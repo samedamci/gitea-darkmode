@@ -1162,7 +1162,7 @@ a.ui.labels .label:hover {
 .CodeMirror {
   color: #dbdbdb;
   background: #404552;
-  border-color: #dbdbdb;
+  border-color: #bbb;
 }
 
 .editor-toolbar a {
@@ -1172,4 +1172,25 @@ a.ui.labels .label:hover {
 .editor-toolbar a.active, .editor-toolbar a:hover {
   background: #304251 !important;
   border-color: #95a5a6;
+}
+
+.markdown:not(code) pre code, .markdown:not(code) pre tt {
+  background: none !important;
+}
+
+.ui.accordion .title:not(.ui) {
+  color: #dbdbdb;
+}
+
+markdown:not(code) code, .markdown:not(code) tt {
+  background-color: rgba(0,0,0,.2) !important;
+}
+
+.ui .text.blue a {
+  color: #477bd7 !important;
+}
+
+/* codeberg.org */
+.following.bar {
+    box-shadow: none !important;
 }
