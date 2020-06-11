@@ -1190,6 +1190,11 @@ markdown:not(code) code, .markdown:not(code) tt {
   color: #477bd7 !important;
 }
 
+.commit-body {
+    white-space: pre-wrap;
+    color: #dbdbdb;
+}
+
 /* codeberg.org */
 .following.bar {
     box-shadow: none !important;
